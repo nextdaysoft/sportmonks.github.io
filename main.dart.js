@@ -92854,7 +92854,7 @@ s=q}while(true)switch(s){case 0:q=3
 n=u.W+b7+"/"+b8+"?api_token=G8ADaiV4O4a27brVYvSDnHgfXrCw8OzSzRyphU52aRiALq37DchoifNbBGHD&include=predictions;participants;league;scores"
 a7=t.N
 s=6
-return A.R(A.azT(A.f7(n,0,null),A.aF(["Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","POST, OPTIONS"],a7,a7)),$async$wD)
+return A.R(A.azT(A.f7(n,0,null),A.aF(["Access-Control-Allow-Origin","https://api.sportmonks.com","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Auth-Token,X-Amz-Security-Token,locale","Access-Control-Allow-Methods","POST, OPTIONS,GET"],a7,a7)),$async$wD)
 case 6:m=c2
 if(m.b===200){a7=m
 l=B.aV.q5(0,A.azP(J.z(A.azl(a7.e).c.a,"charset")).f1(0,a7.w),null)
